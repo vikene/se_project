@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Registration_UI">
+
+
+    <TextView
+        android:id="@+id/pageName"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Registration Page"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="28sp"/>
+
+    <EditText
+        android:id="@+id/etfirstName"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etlastName"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etuserName"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword" />
+
+    <!--<Spinner-->
+        <!--android:id="@+id/etRole"-->
+        <!--android:layout_width="185dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_marginLeft="0dp"-->
+        <!--android:layout_marginTop="180dp"-->
+        <!--android:ems="10"-->
+        <!--android:hint="Role"-->
+        <!--android:inputType="textPersonName" />-->
+
+   <!--<Spinner-->
+       <!--android:id="@+id/etRole"-->
+       <!--android:layout_width="185dp"-->
+       <!--android:layout_height="50dp"-->
+       <!--android:layout_alignParentLeft="true"-->
+       <!--android:layout_alignParentTop="true"-->
+       <!--android:entries="@array/Role"-->
+       <!--&gt;</Spinner>-->
+
+
+    <Spinner
+        android:id="@+id/etRole"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="180dp"
+        android:layout_marginLeft="0dp"
+        android:entries="@array/Role"
+        android:spinnerMode="dropdown" />
+
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etUtaId"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="UTA ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etCity"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="Street Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Phone #"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/etState"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:hint="State"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etZip"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:hint="Zip Code"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etVehicleNum"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:hint="Vehicle Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/etParkingType"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:hint="Parking Type"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/Sign_me_up"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="580dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#78909C"
+        android:text="Sign Me Up" />
+
+    <TextView
+        android:id="@+id/text_login"
+        android:layout_width="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_height="53dp"
+        android:text="Already Signed Up? Login.."
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="650dp"
+        android:textColor="#000000"
+        android:textSize="15sp"/>
+
+</RelativeLayout>

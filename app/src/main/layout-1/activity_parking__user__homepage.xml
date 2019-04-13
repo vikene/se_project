@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parking_User_Homepage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Parking User Homepage"
+        android:layout_marginTop="55dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/parkinguser1"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="130dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_marginRight="40dp"
+        android:layout_height="55dp"
+        android:text="VIEW PROFILE" />
+
+
+    <Button
+        android:id="@+id/parkinguser2"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="230dp"
+        android:layout_height="55dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:text="UPDATE PROFILE" />
+
+    <Button
+        android:id="@+id/parkinguser3"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="330dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_height="55dp"
+        android:text="SEARCH PARKING SPOT" />
+
+    <Button
+        android:id="@+id/parkinguser4"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="430dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_height="55dp"
+        android:text="VIEW MY RESERVATION" />
+
+    <Button
+        android:id="@+id/parkinguser5"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="530dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_height="55dp"
+        android:text="VIEW MY NO-SHOWS OR VIOLATION" />
+
+    <Button
+        android:id="@+id/parkinguser6"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="630dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_height="50dp"
+        android:text="LOGOUT" />
+
+</RelativeLayout>

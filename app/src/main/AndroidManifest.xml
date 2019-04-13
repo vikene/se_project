@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="firstlook.gohoo.utacarparkingsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".utsab_succesfully_set_overdue">
+
+        </activity>
+        <activity android:name=".utsab_succcessfully_set_a_no_show">
+
+        </activity>
+        <activity android:name=".utsab_resrvation_deleted_successfully" />
+        <activity android:name=".utsab_view_selected_reservation_by_parking_manager" />
+        <activity android:name=".utsab_search_reservation_by_parking_manager" >
+
+        </activity>
+        <activity android:name=".utsab_view_selected_parking_user_details_by_parking_manager"></activity>
+        <activity android:name=".ananth_search_parking_user_details_by_admin" >
+
+        </activity>
+        <activity android:name=".anath_search_parking_user_details_by_parking_manager" >
+
+        </activity>
+        <activity android:name=".anant_make_parking_spot_unavailable" />
+        <activity android:name=".ananth_make_parking_spot_unavailable" />
+        <activity android:name=".anant_view_selected_parking_spot" />
+        <activity android:name=".ananth_serach_parking_spot_parking_manager" />
+        <activity android:name=".ananth_view_my_selected_reservations" />
+        <activity android:name=".view_my_no_shows_violations" />
+        <activity android:name=".modify_parking_options" />
+        <activity android:name=".cancel_reservation" />
+        <activity android:name=".cancel_reservation_confirmation" />
+        <activity android:name=".modified_reservation_successfully" />
+        <activity android:name=".modify_my_selected_reservation_by_parking_user" >
+
+        </activity>
+
+        <activity android:name=".parking_user_view_my_selected_reservation" />
+        <activity android:name=".logout_successful" />
+        <activity android:name=".login_sucessfull" />
+        <activity android:name=".view_my_reservation_page" />
+        <activity android:name=".view_my_reservation_input_selected" />
+        <activity android:name=".reservation_successful" >
+
+        </activity>
+        <activity android:name=".reserve_parking" />
+        <activity android:name=".parking_option_successful" />
+        <activity android:name=".parking_user_view_selected_parking_option" >
+
+        </activity>
+        <activity android:name=".parking_user_search_parking_spot_filters" />
+        <activity android:name=".search_parking_spot_by_parkinguser" >
+
+        </activity>
+        <activity android:name=".Parking_user_update_profile" >
+
+        </activity>
+        <activity android:name=".Update_successful" />
+        <activity android:name=".registration_sucessful" >
+
+        </activity>
+        <activity android:name=".Admin_view_profile" />
+        <activity android:name=".Parking_manager_view_profile" />
+        <activity android:name=".view_profile" />
+        <activity android:name=".Admin_Homepage" />
+        <activity android:name=".Parking_Manager_Homepage" />
+        <activity android:name=".Parking_User_Homepage" />
+        <activity android:name=".Login_UI" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Mainpage_UI" />
+        <activity android:name=".Registration_UI" >
+
+        </activity>
+    </application>
+
+</manifest>

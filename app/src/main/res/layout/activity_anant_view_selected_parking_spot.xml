@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anant_view_selected_parking_spot">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="Parking Spot"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Parking Spot Number: 10"
+        android:inputType="time" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Parking Area Name: West Garage"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="140dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Floor Number: 3"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="160dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Parking Type: Basic"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="180dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Parking Spot Status: available"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Username: N/A"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="220dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="First Name: N/A"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="240dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Last Name: N/A"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="260dp"
+        android:paddingBottom="16dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="UTA ID: N/A"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:layout_marginTop="280dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Reservation Number: N/A"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="93dp"
+        android:layout_marginBottom="232dp"
+        android:background="#78909C"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Make Parking Spot Unavailable" />
+
+    <Button
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Log Out"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#78909C"/>
+
+
+
+
+
+
+</RelativeLayout>

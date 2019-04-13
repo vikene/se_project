@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:id="@+id/reservationsearchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:hint="Reservation #"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_search_black_24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/firstor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/reservationsearchbar"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="OR" />
+
+    <LinearLayout
+        android:id="@+id/areasearchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/firstor"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:hint="Reservations by Parking Area Name"
+            android:text="West Garage"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_search_black_24dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/secondor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/areasearchbar"
+        android:layout_centerInParent="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="OR" />
+
+    <LinearLayout
+        android:id="@+id/usernamesearchbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/secondor"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="10"
+            android:hint="Reservations by Username"/>
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_search_black_24dp" />
+
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/sort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_sort_black_24dp"
+        android:layout_below="@id/usernamesearchbar"
+        android:layout_alignParentRight="true"/>
+
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sort"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Reservation #41511"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:id="@+id/textView13"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Parking Area: West Garage"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+
+
+            <TextView
+                android:id="@+id/textView12"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Username: axa7192"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll2"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView11"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Reservation #41741"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:id="@+id/textView10"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Parking Area: West Garage"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+
+
+            <TextView
+                android:id="@+id/textView9"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Username: axa7151"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ll4"
+        android:layout_marginTop="8dp"
+        android:padding="8dp"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_weight="6"
+            android:layout_width="0dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Reservation #41911"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+            <TextView
+                android:id="@+id/textView2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Parking Area: West Garage"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+
+
+            <TextView
+                android:id="@+id/textView3"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:text="Username: axa7192"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"/>
+
+        </LinearLayout>
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:src="@drawable/ic_keyboard_arrow_right_black_24dp"
+            android:background="#ffffff"/>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Log Out"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#78909C"/>
+
+</RelativeLayout>

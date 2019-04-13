@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">UTA Car Parking System</string>
+    <string name="homepage">HOMEPAGE</string>
+    <string name="button">Button</string>
+    <string name="Registration">Registration</string>
+    <string name="mainpage">MAINPAGE</string>
+    <string name="login">Login</string>
+    <string name="username">Username</string>
+    <string name="registration_page">Registration Page</string>
+    <string name="user_name">User Name :</string>
+    <string-array name="Role">
+        <item>User</item>
+        <item>Manager</item>
+        <item>Admin</item>
+
+    </string-array>
+
+
+</resources>

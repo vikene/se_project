@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view_my_no_shows_violations">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="VIEW MY NO-SHOWS OR VIOLATIONS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+
+    <TextView
+        android:id="@+id/filter1"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="276dp"
+        android:text="Start Date :"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="109dp"
+        android:layout_marginTop="95dp"
+        android:layout_marginRight="113dp"
+        android:queryHint="Start Date" />
+
+    <TextView
+        android:id="@+id/filter2"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="153dp"
+        android:layout_marginRight="273dp"
+        android:text="End Date :"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+
+    <SearchView
+        android:id="@+id/search2"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="147dp"
+        android:layout_marginRight="109dp"
+        android:queryHint="End Date" />
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="240dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Date : 11/02/2019"
+        android:inputType="time" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="260dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Reservation Number:10"
+        android:inputType="time" />
+
+    <Button
+        android:id="@+id/SELECT2"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="250dp"
+        android:textSize="15sp"
+        android:background="#78909C"
+        android:text="SELECT" />
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="300dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Date : 13/02/2019"
+        android:inputType="date" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="320dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Reservation Number:11"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/SELECT1"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="310dp"
+        android:textSize="12sp"
+        android:background="#78909C"
+        android:text="SELECT" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="360dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Date : 15/02/2019"
+        android:inputType="date" />
+
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="380dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Reservation Number:15"
+        android:inputType="textPersonName" />
+
+
+    <Button
+        android:id="@+id/SELECT3"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="300dp"
+        android:layout_marginTop="370dp"
+        android:textSize="12sp"
+        android:background="#78909C"
+        android:text="SELECT" />
+
+
+
+
+</RelativeLayout>

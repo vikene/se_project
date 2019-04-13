@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Parking_user_update_profile">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="Update Profile"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="28sp"/>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="First Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="60dp"
+        android:ems="10"
+        android:hint="Last Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="120dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="numberPassword" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="Role"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="240dp"
+        android:ems="10"
+        android:hint="Email ID"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/editText10"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="180dp"
+        android:ems="10"
+        android:hint="UTA ID"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="City"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText12"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="360dp"
+        android:ems="10"
+        android:hint="Street Address"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="409dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:ems="10"
+        android:hint="Phone #"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:hint="State"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="420dp"
+        android:ems="10"
+        android:hint="Zip Code"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText17"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="226dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:hint="Vehicle Number"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText18"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="480dp"
+        android:ems="10"
+        android:hint="Parking Type"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="134dp"
+        android:layout_marginTop="580dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:background="#78909C"
+        android:text="Update" />
+
+    <Button
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Log Out"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#78909C"
+    />
+
+</RelativeLayout>

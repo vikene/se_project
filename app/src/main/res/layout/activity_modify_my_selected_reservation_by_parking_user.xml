@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modify_my_selected_reservation_by_parking_user">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Modify Reservation"
+        android:paddingBottom="16dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:textSize="25sp"/>
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="16dp"
+        android:layout_below="@id/textView"
+        android:paddingBottom="8dp"
+        android:ems="10"
+        android:hint="Start Time"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editText2"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:ems="10"
+        android:hint="Duration of Parking"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editText3"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:ems="10"
+        android:hint="Parking Area Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editText4"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:ems="10"
+        android:hint="Floor Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editText5"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:ems="10"
+        android:hint="Parking Type"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editText6"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="8dp"
+        android:ems="10"
+        android:hint="Parking Spot Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/editText7"
+        android:layout_marginLeft="16dp"
+        android:paddingBottom="16dp"
+        android:ems="10"
+        android:hint="Reservation Number"
+        android:inputType="number" />
+
+    <LinearLayout
+        android:id="@+id/ll1"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/editText8"
+        android:orientation="vertical"
+        android:paddingTop="16dp"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="Camera"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_check_box_outline_blank_black_24dp"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll1"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="Cart"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_check_box_black_24dp"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:layout_below="@id/ll2"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingBottom="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="2"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:text="History"/>
+
+            <ImageButton
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_check_box_black_24dp"
+                android:background="#ffffff"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/Sign_me_up"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="127dp"
+        android:layout_marginTop="618dp"
+        android:background="#78909C"
+        android:text="UPDATE"
+        android:textSize="18sp" />
+
+    <Button
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Log Out"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#78909C"/>
+
+
+
+
+</RelativeLayout>

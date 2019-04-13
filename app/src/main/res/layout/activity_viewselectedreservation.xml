@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Reservation #71669"
+        android:layout_centerHorizontal="true"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Username: axa7612"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Date: 11/24/19"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp" >
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Start Time: 3:00 PM"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="End Time: 4:30 PM"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Parking Area: West Garage"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Parking Spot: #167"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Floor No: 1"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Parking Type: Basic"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingLeft="8dp"
+            android:paddingTop="8dp"
+            android:text="Parking Options Selected: History"
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/deletebutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="2dp"
+        android:padding="8dp"
+        android:background="#78909C"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Cancel Reservation"/>
+    <Button
+        android:id="@+id/setnoshowbutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/deletebutton"
+        android:layout_marginTop="2dp"
+        android:padding="8dp"
+        android:background="#78909C"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Modify Parking Options"/>
+
+    <Button
+        android:id="@+id/setoverdueutton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/setnoshowbutton"
+        android:padding="8dp"
+        android:background="#78909C"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:text="Modify Reservation"/>
+
+    <Button
+        android:id="@+id/logout"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+        android:text="Log Out"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#78909C"
+    />
+
+
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".parking_user_search_parking_spot_filters">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="SEARCH PARKING SPOT"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="28sp"/>
+
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Start Time (defaults to now)"
+        android:inputType="time" />
+
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Parking Area Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editTex3"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="300dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Duration of parking"
+        android:inputType="textPersonName" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginRight="50dp"
+        android:queryHint="gfcgfc"/>
+
+</RelativeLayout>

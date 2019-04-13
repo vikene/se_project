@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".anath_search_parking_user_details_by_parking_manager">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="SEARCH PARKING USER DETAILS"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/filter1"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="186dp"
+        android:layout_marginRight="280dp"
+        android:text="Username:"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+    <SearchView
+        android:id="@+id/search"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="169dp"
+        android:layout_marginRight="115dp"
+        android:queryHint="Username" />
+
+    <TextView
+        android:id="@+id/filter2"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="245dp"
+        android:layout_marginRight="280dp"
+        android:text="UTA ID :"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+
+    <SearchView
+        android:id="@+id/search2"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="106dp"
+        android:layout_marginTop="232dp"
+        android:layout_marginRight="115dp"
+        android:queryHint="UTA ID" />
+
+    <TextView
+        android:id="@+id/filter3"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginRight="280dp"
+        android:text="First Name :"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+
+    <SearchView
+        android:id="@+id/search4"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="108dp"
+        android:layout_marginTop="117dp"
+        android:layout_marginRight="114dp"
+        android:queryHint="First Name" />
+
+    <TextView
+        android:id="@+id/filter4"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="73dp"
+        android:layout_marginRight="280dp"
+        android:text="Role :"
+        android:textColor="#000000"
+        android:textSize="12sp" />
+
+
+    <SearchView
+        android:id="@+id/search5"
+        android:layout_width="130dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="107dp"
+        android:layout_marginTop="67dp"
+        android:layout_marginRight="115dp"
+        android:queryHint="Role" />
+
+
+</RelativeLayout>

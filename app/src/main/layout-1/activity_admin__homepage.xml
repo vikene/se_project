@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_Homepage">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="Admin Homepage"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+
+    <Button
+        android:id="@+id/parkingmanager1"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="180dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_marginRight="40dp"
+        android:layout_height="60dp"
+        android:text="VIEW PROFILE" />
+
+
+    <Button
+        android:id="@+id/parkingmanager2"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:layout_marginTop="300dp"
+        android:layout_height="60dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:text="UPDATE PROFILE" />
+
+    <Button
+        android:id="@+id/parkingmanager3"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="420dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_height="60dp"
+        android:text="SEARCH PARKING USER DETAILS" />
+
+
+    <Button
+        android:id="@+id/parkingmanager6"
+        android:layout_width="400dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="540dp"
+        android:textSize="18sp"
+        android:background="#78909C"
+        android:layout_height="60dp"
+        android:text="LOGOUT" />
+
+</RelativeLayout>

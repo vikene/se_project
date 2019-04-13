@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ananth_make_parking_spot_unavailable">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:text="Are you sure you want to make parking spot unavailable!!???"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:textColor="#000000"
+        android:textSize="28sp"/>
+
+
+    <Button
+        android:id="@+id/Sign_me_up"
+        android:layout_width="150dp"
+        android:layout_height="60dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="558dp"
+        android:background="#78909C"
+        android:text="Confirm"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large" />
+
+</RelativeLayout>

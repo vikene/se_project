@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mainpage_UI">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="53dp"
+        android:text="HOMEPAGE"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+    <Button
+        android:id="@+id/registration_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="120dp"
+        android:text="REGISTRATION"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/login_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="300dp"
+        android:text="LOGIN" />
+
+    <Button
+        android:id="@+id/logout_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="480dp"
+        android:text="LOGOUT" />
+
+
+</RelativeLayout>

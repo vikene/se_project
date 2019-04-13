@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ananth_view_my_selected_reservations">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:text="VIEW MY SELECTED RESERVATION"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="0dp"
+        android:textColor="#000000"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="100dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Date:11/02/2019 "
+        android:inputType="time" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="120dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Reservation Number:10"
+        android:inputType="time" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="140dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Start Time:7:30PM"
+        android:inputType="textPersonName" />
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="160dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Duration:3 HOUR"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="180dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Parking Area Name:MAC"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="200dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Floor Number:3"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="220dp"
+        android:textColor="#000000"
+        android:ems="10"
+        android:textSize="20sp"
+        android:text="Parking Type:BASIC"
+        android:inputType="number" />
+
+</RelativeLayout>
