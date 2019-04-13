@@ -1,0 +1,211 @@
+{
+  "project_info": {
+    "project_number": "464946005332",
+    "firebase_url": "https://creen-c0319.firebaseio.com",
+    "project_id": "creen-c0319",
+    "storage_bucket": "creen-c0319.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464946005332:android:7f4274cdd1e981ee",
+        "android_client_info": {
+          "package_name": "com.example.firetodo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464946005332-mcn2po86srid4i6a964uuqr49frdv3bd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.firetodo",
+            "certificate_hash": "67845afdef70162ebee6393ed24d0549e8241aea"
+          }
+        },
+        {
+          "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwP2FoK5Kr86WzNzu4evzMTt5BS_2QI0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464946005332-64neppirp6ur9uiek1j86gr2l1h930pq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firetodo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464946005332:android:665f9059eb5ce06d",
+        "android_client_info": {
+          "package_name": "com.example.prady.stocktrade_news"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464946005332-p343r5ihhjsgtd1strp9du77a4c5amg0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prady.stocktrade_news",
+            "certificate_hash": "67845afdef70162ebee6393ed24d0549e8241aea"
+          }
+        },
+        {
+          "client_id": "464946005332-a03olmtjv9g3ka1n73gkgem031uuko4t.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prady.stocktrade_news",
+            "certificate_hash": "e91401fbffc79a1b1f6ea31985e39a0e3800b91e"
+          }
+        },
+        {
+          "client_id": "464946005332-fcpp2k4sdfpvb0smv97mdgl5mr11m43b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prady.stocktrade_news",
+            "certificate_hash": "381e0fb87b7ad95dcb782b7b17932ee719e0a429"
+          }
+        },
+        {
+          "client_id": "464946005332-487hamoo2qav1un565vhmtpom9ctq68q.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.prady.stocktrade_news",
+            "certificate_hash": "539edee71525d597ad4297d127e7da116ab29489"
+          }
+        },
+        {
+          "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwP2FoK5Kr86WzNzu4evzMTt5BS_2QI0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464946005332-64neppirp6ur9uiek1j86gr2l1h930pq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firetodo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464946005332:android:dc4baa82a3f1d56a",
+        "android_client_info": {
+          "package_name": "com.sellit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464946005332-2nvk49iqni0sgn80fe0vu8rkjjba5rj1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.sellit",
+            "certificate_hash": "67845afdef70162ebee6393ed24d0549e8241aea"
+          }
+        },
+        {
+          "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwP2FoK5Kr86WzNzu4evzMTt5BS_2QI0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464946005332-64neppirp6ur9uiek1j86gr2l1h930pq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firetodo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:464946005332:android:c9df00f3705e3882",
+        "android_client_info": {
+          "package_name": "firstlook.gohoo.utacarparkingsystem"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "464946005332-u9uqboc3o43bsk9b9o3qefvp1ooco6ff.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "firstlook.gohoo.utacarparkingsystem",
+            "certificate_hash": "67845afdef70162ebee6393ed24d0549e8241aea"
+          }
+        },
+        {
+          "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwP2FoK5Kr86WzNzu4evzMTt5BS_2QI0w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "464946005332-8tqsdhdj6gbdhdpsg7rrs9bcj24j4ja8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "464946005332-64neppirp6ur9uiek1j86gr2l1h930pq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.firetodo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
