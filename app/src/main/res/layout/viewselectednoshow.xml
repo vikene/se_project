@@ -26,6 +26,7 @@
             android:paddingLeft="8dp"
             android:paddingTop="8dp"
             android:text="Username: axa7612"
+            android:id="@+id/username"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <TextView
@@ -35,6 +36,7 @@
             android:paddingLeft="8dp"
             android:paddingTop="8dp"
             android:text="Date: 11/24/19"
+            android:id="@+id/date"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <LinearLayout
@@ -49,13 +51,16 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Start Time: 3:00 PM"
-                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+                android:id="@+id/time"
+                />
 
             <TextView
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="End Time: 4:30 PM"
+                android:id="@+id/duration"
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
 
@@ -68,7 +73,9 @@
             android:paddingLeft="8dp"
             android:paddingTop="8dp"
             android:text="Parking Area: West Garage"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+            android:id="@+id/area"
+            />
 
         <TextView
             android:layout_width="match_parent"
@@ -77,6 +84,7 @@
             android:paddingLeft="8dp"
             android:paddingTop="8dp"
             android:text="Parking Spot: #167"
+            android:id="@+id/spot"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <TextView
@@ -85,19 +93,11 @@
             android:layout_weight="1"
             android:paddingLeft="8dp"
             android:paddingTop="8dp"
-            android:text="No-show: Yes"
+            android:id="@+id/Error"
             android:textStyle="bold"
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:paddingLeft="8dp"
-            android:paddingTop="8dp"
-            android:text="Overdue: None"
-            android:textStyle="bold"
-            android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
+
 
     </LinearLayout>
 

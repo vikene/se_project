@@ -147,6 +147,7 @@ public class Registration_UI extends AppCompatActivity {
                             newUser.setZip(zip);
                             newUser.setVehicleNumber(vehicleNumber);
                             newUser.setType(type);
+                            newUser.setUtaid(utaId.getText().toString());
                             auth.getCurrentUser().getUid();
                             dbref.child("users").child(auth.getCurrentUser().getUid()).setValue(newUser);
                             openActivity(Login_UI.class);

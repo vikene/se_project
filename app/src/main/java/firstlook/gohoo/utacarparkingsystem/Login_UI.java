@@ -1,6 +1,7 @@
 package firstlook.gohoo.utacarparkingsystem;
 
 import android.content.Intent;
+import android.support.annotation.NonNull;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -10,12 +11,28 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.util.Log;
 
+import com.google.android.gms.tasks.OnCompleteListener;
+import com.google.android.gms.tasks.Task;
+import com.google.firebase.auth.AuthResult;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
+
 public class Login_UI extends AppCompatActivity {
     private Button registration_button;
     private Button login_button;
     private EditText userName, password;
-    DatabaseHelper db;
+    FirebaseDatabase db;
 
+    @Override
+    public void onStart(){
+        super.onStart();
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        if(auth.getCurrentUser() != null){
+            Intent intent = new Intent(getApplicationContext(), login_sucessfull.class);
+            startActivity(intent);
+        }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -57,60 +74,17 @@ public class Login_UI extends AppCompatActivity {
 
 
     public void login_check() {
-       db= new DatabaseHelper(this);
-        String username = userName.getText().toString();
-        String userpassword = password.getText().toString();
-        String role="parking user";
-        String Role1="Parking Manager";
-        String Role2="Admin";
-
-        if (username.isEmpty() || userpassword.isEmpty()) {
-            Toast.makeText(this, "Please enter username and password", Toast.LENGTH_SHORT).show();
-        }
-
-        else{
-            Log.e("TEXT", "-----------------iam inside login now-----------------");
-
-
-          boolean checkUsernamePassword=db.checkUsernamePasswordParkinUser(username,userpassword);
-
-            Log.e("TEXT", "-----------------iam inside login now-----------------");
-
-          if(checkUsernamePassword){
-
-              Toast.makeText(getApplicationContext(), "Login Successfully", Toast.LENGTH_LONG).show();
-              openActivity(Parking_User_Homepage.class);
-              Log.e("TEXT", "-----------------I AM A PARKING USER! Don't mess with me!! -----------------");
-          }
-          else {
-             // Toast.makeText(getApplicationContext(), "Wrong username and password", Toast.LENGTH_LONG).show();
-              boolean checkUsernamePasswordmanager=db.checkUsernamePasswordPakingManager(username,userpassword);
-              if(checkUsernamePasswordmanager){
-                  Toast.makeText(getApplicationContext(), "Login Successfully", Toast.LENGTH_LONG).show();
-                  Log.e("TEXT", "-----------------I AM A PARKING MANAGER-----------------");
-                  openActivity(Parking_Manager_Homepage.class);
-
-              }
-
-              else{
-                  boolean checkUsernamePasswordAdmin=db.checkUsernamePasswordAdmin(username,userpassword);
-                  if(checkUsernamePasswordAdmin) {
-                      Toast.makeText(getApplicationContext(), "Login Successfully", Toast.LENGTH_LONG).show();
-                      Log.e("TEXT", "-----------------I am Admin -----------------");
-                      openActivity(Admin_Homepage.class);
-                  }
-
-                  else{
-                      Toast.makeText(getApplicationContext(), "Wrong username and password", Toast.LENGTH_LONG).show();
-                  }
-              }
-          }
-
-
-
-
+        FirebaseAuth auth = FirebaseAuth.getInstance();
+        auth.signInWithEmailAndPassword(userName.getText().toString(), password.getText().toString()).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+            @Override
+            public void onComplete(@NonNull Task<AuthResult> task) {
+                if(task.isSuccessful()){
+                    openActivity(login_sucessfull.class);
+                }
+            }
+        });
     }
-}}
+}
 
 
 

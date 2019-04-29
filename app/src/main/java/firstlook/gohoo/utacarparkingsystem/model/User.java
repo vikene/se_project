@@ -16,6 +16,15 @@ public class User {
     String zip;
     String vehicleNumber;
     String type;
+    String utaid;
+
+    public String getUtaid() {
+        return utaid;
+    }
+
+    public void setUtaid(String utaid) {
+        this.utaid = utaid;
+    }
 
     public String getFirstName() {
         return firstName;
