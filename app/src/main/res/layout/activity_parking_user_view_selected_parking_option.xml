@@ -171,11 +171,12 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:text="Camera"/>
 
-            <ImageButton
+            <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/ic_check_box_outline_blank_black_24dp"
+                android:id="@+id/checkbox1"
                 android:background="#ffffff"/>
 
         </LinearLayout>
@@ -203,11 +204,12 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:text="Cart"/>
 
-            <ImageButton
+            <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/ic_check_box_black_24dp"
+                android:id="@+id/checkbox2"
                 android:background="#ffffff"/>
 
         </LinearLayout>
@@ -235,11 +237,12 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
                 android:text="History"/>
 
-            <ImageButton
+            <CheckBox
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:src="@drawable/ic_check_box_black_24dp"
+                android:id="@+id/checkbox3"
                 android:background="#ffffff"/>
 
         </LinearLayout>

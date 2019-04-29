@@ -20,6 +20,7 @@
         android:orientation="vertical">
 
         <TextView
+            android:id="@+id/username"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -29,6 +30,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <TextView
+            android:id="@+id/date"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -45,6 +47,7 @@
             android:paddingTop="8dp" >
 
             <TextView
+                android:id="@+id/starttime"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -52,6 +55,7 @@
                 android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
             <TextView
+                android:id="@+id/endtime"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
@@ -62,6 +66,7 @@
         </LinearLayout>
 
         <TextView
+            android:id="@+id/parkingareaname"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -71,6 +76,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <TextView
+            android:id="@+id/parkingspotnum"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -80,6 +86,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <TextView
+            android:id="@+id/floor"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -89,6 +96,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <TextView
+            android:id="@+id/parkingtype"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -98,6 +106,7 @@
             android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium" />
 
         <TextView
+            android:id="@+id/options"
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1"
@@ -148,7 +157,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="#78909C"
-    />
+        />
 
 
 </RelativeLayout>
